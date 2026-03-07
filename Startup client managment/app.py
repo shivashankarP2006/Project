@@ -2,6 +2,7 @@
 # Import Libraries
 # ------------------------------------------------
 import streamlit as st
+import dummy_data
 
 # Import database setup function
 from database import create_table
@@ -95,4 +96,5 @@ else:
         team_lead_dashboard()
 
     elif role == "Team Member":
+
         team_member_dashboard()
