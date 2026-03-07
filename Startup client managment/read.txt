@@ -1,0 +1,169 @@
+
+✅ Frontend:
+
+Streamlit
+
+✅ Backend:
+
+Python
+
+✅ Database:
+
+SQLite
+
+✅ Data Handling:
+
+Pandas
+
+🎯 Simple Explanation
+Layer	Technology	Purpose
+Frontend	Streamlit	Shows UI (buttons, forms, dashboard)
+Backend	Python	Handles logic & processing
+Database	SQLite	Stores data permanently
+Data Processing	Pandas	Analyzes & groups data
+🏗 Now Let’s Understand Like Real World
+
+Imagine your project is a restaurant 🍽
+
+🍽 Frontend = Waiter (Streamlit)
+
+Takes customer order
+
+Shows menu
+
+Displays bill
+
+Talks to customer
+
+In your app:
+
+Shows login page
+
+Shows dashboard
+
+Shows alerts
+
+Shows charts
+
+So:
+
+Streamlit is responsible for user interaction.
+
+👨‍🍳 Backend = Chef (Python)
+
+Takes order from waiter
+
+Cooks food
+
+Decides recipe
+
+Sends finished dish back
+
+In your app:
+
+Validates login
+
+Assigns tasks
+
+Updates status
+
+Calculates deadline days
+
+Groups team summary
+
+So:
+
+Python handles all business logic.
+
+📦 Database = Storage Room (SQLite)
+
+Stores vegetables
+
+Stores rice
+
+Stores ingredients
+
+Keeps everything safe
+
+In your app:
+
+Stores tasks
+
+Stores team info
+
+Stores status
+
+Stores deadlines
+
+So:
+
+SQLite stores data permanently.
+
+📊 Pandas = Accountant
+
+Counts daily sales
+
+Calculates totals
+
+Groups numbers
+
+In your app:
+
+Groups tasks by team
+
+Counts New / In Progress / Completed
+
+Creates summary tables
+
+Prepares chart data
+
+So:
+
+Pandas helps in analysis and aggregation.
+
+🔁 HOW EVERYTHING WORKS TOGETHER
+
+Let’s say Team Lead assigns task.
+
+Step 1:
+
+User clicks "Assign Task"
+👉 Streamlit captures input
+
+Step 2:
+
+Python function runs
+👉 add_task()
+
+Step 3:
+
+SQLite stores data
+
+Step 4:
+
+Manager logs in
+👉 Data fetched from SQLite
+
+Step 5:
+
+Pandas groups data
+👉 Team summary created
+
+Step 6:
+
+Streamlit displays dashboard
+
+This is full cycle.
+
+🧠 Architecture Flow (Simple)
+User (Browser)
+      ↓
+Streamlit (Frontend UI)
+      ↓
+Python (Business Logic)
+      ↓
+SQLite (Database Storage)
+      ↓
+Python (Process Data)
+      ↓
+Streamlit (Display Results)
