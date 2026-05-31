@@ -2,7 +2,6 @@
 # Import Libraries
 # ------------------------------------------------
 import streamlit as st
-import dummy_data
 
 # Import database setup function
 from database import create_table
@@ -59,6 +58,36 @@ if not st.session_state.logged_in:
 
     col1, col2, col3 = st.columns([1,2,1])
 
+    # Left Side - Demo Users
+    with col1:
+
+        st.markdown("## 🔑 Demo Users")
+
+        st.info("""
+        👨‍💼 Manager
+
+        Username: manager
+
+        Password: manager123
+        """)
+
+        st.info("""
+        👨‍💻 Team Lead
+
+        Username: tl1
+
+        Password: tl123
+        """)
+
+        st.info("""
+        🧑‍💻 Team Member
+
+        Username: mem1
+
+        Password: mem123
+        """)
+
+    # Center - Login Form
     with col2:
         login()
 
@@ -96,5 +125,4 @@ else:
         team_lead_dashboard()
 
     elif role == "Team Member":
-
         team_member_dashboard()
